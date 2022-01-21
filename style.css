@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .site-container {
@@ -123,4 +124,22 @@
     font-size: 18px;
     padding: 20px;
     margin: 20px auto;
+}
+
+.android-btn:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {   
+     max-width: 20em;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover {
+    cursor: pointer;
+    color: orange;
 }
