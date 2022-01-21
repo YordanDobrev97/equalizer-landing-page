@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-container {
+    width: 80%;
+    height: 100vh;
+    min-height: 28em;
+    margin: auto;
+}
+
+.header-title {
+    padding: 20px 100px;
+}
+
+.rectangle-container {
+    position: absolute;
+    right: 0;
+    top: -3em;
+}
+
+.heading {
+    padding: 20px 95px;
+    font-size: 42px;
+    max-width: 15em;
+}
+
+.description {
+    padding: 20px 100px;
+    font-size: 14px;
+    max-width: 69%;
+    margin-top: -30px;
+}
